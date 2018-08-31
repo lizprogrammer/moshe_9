@@ -18,7 +18,7 @@ namespace Section9
             string NewFile = @"/home/ubuntu/workspace/Section9/files/text.bak";
             
             CopyFile(OldFile, NewFile);
-            CountWords(OldFile);
+            //CountWords(OldFile);
             Console.WriteLine(String.Format("The biggest word in the file is {0}", BiggestWord(OldFile)));
 
         }
@@ -82,7 +82,7 @@ namespace Section9
             while((line = file.ReadLine()) != null)  
             {  
                 
-                Console.WriteLine(String.Format("{0}",line));
+                //Console.WriteLine(String.Format("{0}",line));
                 string[] StringArray = line.Split(' '); 
                 CountWords += StringArray.Length;
                 
