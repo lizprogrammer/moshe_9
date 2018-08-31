@@ -100,8 +100,6 @@ namespace Section9
             }  
 
             file.Close();  
-            System.Console.WriteLine("There are {0} lines.", counter);  
-            System.Console.WriteLine("There are {0} words.", CountWords);  
             // Suspend the screen.  
             System.Console.ReadLine(); 
             
